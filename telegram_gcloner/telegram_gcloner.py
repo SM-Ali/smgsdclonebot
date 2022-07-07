@@ -119,7 +119,7 @@ def main():
     load_handlers(updater.dispatcher)
 
     updater.start_polling()
-    updater.bot.send_message(chat_id=config.USER_IDS[0], text='Welcome to CloneBot V2⚡.\n Let\'s clone some data to your Team Drives !')
+    updater.bot.send_message(chat_id=config.USER_IDS[0], text='Hey🙂SM,Do you want to clone♻️ gdrive links🤨??')
     updater.idle()
 
 
